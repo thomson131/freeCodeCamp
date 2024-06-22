@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title" >My Survey Form</h1>
+    <p id="description">A form for surveying things</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label" >Enter Your Name: <input type="text" id="name" placeholder="Bob Hoskins" required /></label>
+        <label for="email" id="email-label" >Enter Your Email: <input type="email" id="email" placeholder="bobhoskins@mail.com" required /></label>
+        <label for="number" id="number-label" >Enter Your Age: <input type="number" id="number" min="13" max="120" placeholder="30" /></label>
+        <label for="dropdown">What is your favourite drink? 
+          <select id="dropdown">
+            <option value="0">(select one)</option>
+            <option value="1">Cola</option>
+            <option value="2">Pepsi</option>
+            <option value="3">Fanta</option>
+            <option value="4">Lemonade</option>
+          </select>
+          </label>
+          <label for="cat">Cats <input type="radio" id="cat" name="cats-or-dogs" value="5" checked />
+          </label>
+          <label for="dog">Dogs <input type="radio" id="dog" name="cats-or-dogs" value="6" />
+          </label>
+          <label for="referral-website">How did you hear about my form? 
+            <input type="checkbox" id="referral-website" name="website" value="10" />Website
+          <input type="checkbox" id="referral-email" name="email"  value="11" />Email
+          <input type="checkbox" id="referral-tv" name="tv" value="12" />Television
+          <input type="checkbox" id="referral-friend" name="friend" value="13" />Friend
+          <input type="checkbox" id="referral-other" name="other" value="14" />Other
+          </label>
+      </fieldset>
+      <fieldset>
+        <label for="freetext" id="freetext-label">
+          Tell me something about you: <textarea id="freetext" rows="3" cols="20"></textarea>
+      </fieldset>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>

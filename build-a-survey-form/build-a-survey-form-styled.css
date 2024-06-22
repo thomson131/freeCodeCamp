@@ -1,0 +1,39 @@
+
+h1 {
+  font-family: Sans-Serif;
+  text-align: center;
+}
+
+p[id="description"] {
+  text-align: center;
+}
+
+body {
+  text-align: left;
+  background-color: turquoise;
+}
+
+label {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+input {
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  width: 60%;
+}
+
+label[id="number-label"]{
+  max-width: 50px;
+  padding-right: 20px
+}
+
+input[type="submit"] {
+  color: blue;
+  background-color: green;
+
+}
