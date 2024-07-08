@@ -1,0 +1,40 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <header id="title">Bruce Lee</header>
+      <div id="img-div">
+        <img id="image" src="" ></img>
+        <figcaption id="img-caption">Image of Bruce Lee</figcaption>
+      </div>
+      <div id="tribute-info">
+        <p>This is some text paying tribute to Bruce Lee.</p>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Bruce_Lee" target="_blank">Visit Bruce Lees Wikipedia Page</a>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+** end of undefined **
+
