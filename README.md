@@ -1,2 +1,2 @@
 # freeCodeCamp
-freeCodeCamp - Solutions
+freeCodeCamp - Minimal Viable Product (MVP) Solutions
