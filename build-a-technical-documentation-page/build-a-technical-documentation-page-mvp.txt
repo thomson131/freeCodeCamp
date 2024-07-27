@@ -1,0 +1,107 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Server Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <nav id="navbar">
+  <header>Technical Documentation</header>
+  <a class="nav-link" href="#Introduction">Introduction</a>
+  <a class="nav-link" href="#Section_One">Section One</a>
+  <a class="nav-link" href="#Section_Two">Section Two</a>
+  <a class="nav-link" href="#Section_Three">Section Three</a>
+  <a class="nav-link" href="#Section_Four">Section Four</a>
+  <a class="nav-link" href="#Section_Five">Section Five</a>
+  </nav>
+	<main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Section_One">
+      <header>Section One</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Section_Two">
+      <header>Section Two</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Section_Three">
+      <header>Section Three</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Section_Four">
+      <header>Section Four</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+    <section class="main-section" id="Section_Five">
+      <header>Section Five</header>
+      <p></p>
+      <ul>
+        <li>
+        </li>
+      </ul>
+      <code></code>
+      <p></p>
+      <code></code>
+    </section>
+  </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 640px ) {
+	#navbar {
+		flex-direction: column;
+	}
+}
+
+#navbar {
+	display: flex;
+}
+
+** end of undefined **
+
