@@ -1,0 +1,81 @@
+** start of undefined **
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hi, I'm James.</h1>
+      <p>I'm a web developer</p>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">Below are some examples of my projects</h2>
+
+      <div class="projects-grid">
+        <a href="https://github.com/thomson131/freeCodeCamp/tree/main/responsive-web-design/build-a-tribute-page" target="_blank" class="project project-tile">
+          <p class="project-title">
+            Tribute Page
+          </p>
+        </a>
+        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+      </div>
+
+      <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-links">
+        <a id="profile-link" href="https://dummyprofile.com/profile" target="_blank" class="btn contact-details"><i class="fas fa-at"></i>View my profile</a>
+        <a href="mailto:dummy@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+      </div>
+    </section>
+    <footer>
+      <p>
+        © Copyright Forever
+      </p>
+    </footer>
+</body></html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+
+** end of undefined **
+

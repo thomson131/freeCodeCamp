@@ -1,0 +1,72 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Amazing Doofer</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+    <header id="header">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#amazing-features">Amazing Features</a>
+        <a class="nav-link" href="#more-amazing-features">More Amazing Features</a>
+        <a class="nav-link" href="#order">Order Now</a>
+      </nav>
+      <img id="header-img" src="https://i.redd.it/uvx6zeyg9c211.jpg"/>
+    </header>
+  <body>
+    <h1>The Amazing Doofer</h1>
+    <h2 id="amazing-features">Amazing Features</h2>
+    <h2 id="more-amazing-features">More Amazing Features</h2>
+    <section>
+      <iframe id="video" width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+    </section>
+    <h2 id="order">Order Now</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+      <div class='fieldset'>
+        <label for='text1'>E-Mail</label>
+        <input type='email' name="email" id='email' placeholder='Enter your email address'/>
+      </div>
+      <div class='fieldset'>
+        <div class='checkbox_block'>
+          <input type='checkbox' id='checkbox1'/>
+          <label for='checkbox1'>Do you want a doofer?</label>
+        </div>
+      </div>
+        <input id="submit" type='submit'></input>
+      </div>
+    </form>
+  </body>
+</html>
+    
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-family: San-serif;
+}
+
+#header-img {
+  width: 400px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 700px) {
+  #nav-bar {
+    font-family: Helvetica;
+  }
+}
+
+** end of undefined **
+
